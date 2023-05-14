@@ -2,14 +2,14 @@ import { useState, useEffect } from "react";
 
 
 function Chat() {
-  useEffect(() => {
-    const allMessages = [];
-    const Messages = localStorage.getItem("message");
+//   useEffect(() => {
+//     const allMessages = [];
+//     const Messages = localStorage.getItem("message");
 
-    if (!valorLocalStorage) {
-      localStorage.setItem("miCampo", valorPredeterminado);
-    }
-  }, []);
+//     if (!valorLocalStorage) {
+//       localStorage.setItem("miCampo", valorPredeterminado);
+//     }
+//   }, []);
 
   const [message, setMessage] = useState("");
 
